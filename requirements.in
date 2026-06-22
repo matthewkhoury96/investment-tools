@@ -1,0 +1,4 @@
+numpy==1.26.4
+sec-edgar-downloader==5.1.0
+absl-py==2.4.0
+requests==2.34.2

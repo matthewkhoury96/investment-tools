@@ -1,0 +1,25 @@
+module(
+    name = "investment-tools",
+    version = "1.0.0",
+)
+
+# 1. Use a modern, Bazel 9-compatible version of rules_python
+bazel_dep(name = "rules_python", version = "2.0.1")
+
+# 2. Register the modern hermetic Python toolchain (e.g., 3.11)
+python = use_extension("@rules_python//python/extensions:python.bzl", "python")
+python.toolchain(
+    is_default = True,
+    python_version = "3.11",
+)
+
+# 3. Parse your modernized pip dependencies
+pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
+pip.parse(
+    hub_name = "pip_deps",
+    python_version = "3.11",
+    requirements_lock = "//:requirements.txt",
+)
+
+# 4. Expose the repo to your BUILD files
+use_repo(pip, "pip_deps")

@@ -1,0 +1,64 @@
+<SEC-DOCUMENT>0000734383-26-000087.txt : 20260331
+<SEC-HEADER>0000734383-26-000087.hdr.sgml : 20260331
+CONFORMED SUBMISSION TYPE:	NPORT-P
+CONFORMED PERIOD OF REPORT:	20260131
+FILED AS OF DATE:		20260331
+<SERIES-AND-CLASSES-CONTRACTS-DATA>
+<SERIES>
+<SERIES-ID>S000002924
+<CLASS-CONTRACT-ID>C000032424</CLASS-CONTRACT-ID>
+</SERIES>
+</SERIES-AND-CLASSES-CONTRACTS-DATA>
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>NPORT-P
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://sec.gov" xmlns:com="http://sec.gov" xmlns:ncom="http://sec.govcommon" xmlns:xsi="http://w3.org">
+  <headerData>
+    <submissionType>NPORT-P</submissionType>
+    <filerInfo>
+      <seriesClassInfo>
+        <seriesId>S000002924</seriesId>
+        <classId>C000032424</classId>
+        <classId>C000008012</classId>
+      </seriesClassInfo>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <genInfo>
+      <seriesName>VANGUARD REAL ESTATE INDEX FUND</seriesName>
+      <seriesId>S000002924</seriesId>
+      <repPdDate>2026-01-31</repPdDate>
+    </genInfo>
+    <fundInfo>
+      <totAssets>65774047399.76</totAssets>
+      <borrowers>
+        <borrower aggrVal="1848204.00" lei="549300LCO2FLSSVFFR64" name="RBC Capital Markets LLC"/>
+      </borrowers>
+    </fundInfo>
+    <invstOrSec>
+      <name>PROLOGIS INC</name>
+      <cusip>74340W103</cusip>
+      <valUSD>4850100200.50</valUSD>
+    </invstOrSec>
+    <invstOrSec>
+      <name>AMERICAN TOWER CORP</name>
+      <cusip>03027X100</cusip>
+      <valUSD>3210450900.00</valUSD>
+    </invstOrSec>
+    <invstOrSec>
+      <name>EQUINIX INC CALL OPTION</name>
+      <cusip>29444U109</cusip>
+      <valUSD>15400000.00</valUSD>
+      <putCall>CALL</putCall>
+    </invstOrSec>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+

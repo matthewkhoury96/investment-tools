@@ -1,0 +1,83 @@
+<SEC-DOCUMENT>0000859804-26-000002.txt : 20260217
+<SEC-HEADER>0000859804-26-000002.hdr.sgml : 20260217
+CONFORMED SUBMISSION TYPE:	13F-HR
+CONFORMED PERIOD OF REPORT:	20251231
+FILER:
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			WEDGEWOOD PARTNERS INC
+		CENTRAL INDEX KEY:			0000859804
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <filer>
+        <credentials>
+          <cik>0000859804</cik>
+        </credentials>
+      </filer>
+      <periodOfReport>12-31-2025</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <filingManager>
+        <name>WEDGEWOOD PARTNERS INC</name>
+      </filingManager>
+    </coverPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>WedgewoodPartners_13f_4Q25.xml
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<informationTable xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable">
+  <infoTable>
+    <nameOfIssuer>ALPHABET INC</nameOfIssuer>
+    <titleOfClass>CAP STK CL A</titleOfClass>
+    <cusip>02079K305</cusip>
+    <value>51304869</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>163913</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>AMAZON COM INC</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>023135106</cusip>
+    <value>13448958</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>58266</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>APPLE INC</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>037833100</cusip>
+    <value>38854173</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>142920</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <putCall>PUT</putCall>
+  </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+
